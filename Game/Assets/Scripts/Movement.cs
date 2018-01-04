@@ -33,7 +33,7 @@ public class Movement : MonoBehaviour {
             this.transform.Rotate(new Vector3(0.0f, 1.5f, 0.0f));
         }
 
-        if (Input.GetKey(KeyCode.Q))
+        /*if (Input.GetKey(KeyCode.Q))
         {
             this.transform.position = this.transform.position - this.transform.right * 0.1f;
         }
@@ -41,6 +41,6 @@ public class Movement : MonoBehaviour {
         if (Input.GetKey(KeyCode.E))
         {
             this.transform.position = this.transform.position + this.transform.right * 0.1f;
-        }
+        }*/
     }
 }
